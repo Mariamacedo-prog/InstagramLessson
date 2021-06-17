@@ -38,6 +38,13 @@ body {
 }
 .app--phone img {
   width: 550px;
+  -webkit-touch-callout: none; /* iPhone OS, Safari */
+  -webkit-user-select: none; /* Chrome, Safari 3 */
+  -khtml-user-select: none; /* Safari 2 */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none; /* Possível implementação no futuro */
+  cursor: default;
 }
 .slider {
   margin-top: 95px;
@@ -72,6 +79,13 @@ body {
   justify-content: space-around;
   align-items: stretch;
   width: 100%;
+  -webkit-touch-callout: none; /* iPhone OS, Safari */
+  -webkit-user-select: none; /* Chrome, Safari 3 */
+  -khtml-user-select: none; /* Safari 2 */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  user-select: none; /* Possível implementação no futuro */
+  cursor: default;
 }
 label {
   display: flex;
@@ -148,6 +162,7 @@ label {
 .intagram--apple--google img {
   width: 120px;
   padding: 20px 0;
+  cursor: pointer;
 }
 
 .blue--link {
