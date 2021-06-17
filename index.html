@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="instagram-wrapper">
+        <div class="app--phone">
+          <img src="assets/PicsArt_06-16-04.25.48.png" />
+          <div class="slider">
+            <div class="slider--width" style="width: calc(220px * 5)">
+              <div
+                class="slider--item"
+                style="
+                  background-image: url('https://capricho.abril.com.br/wp-content/uploads/2019/11/insta.jpg?quality=85&strip=info');
+                "
+              ></div>
+              <div
+                class="slider--item"
+                style="background-image: url('./assets/photo1.jpg')"
+              ></div>
+              <div
+                class="slider--item"
+                style="background-image: url('./assets/photo2.jpg')"
+              ></div>
+              <div
+                class="slider--item"
+                style="background-image: url('./assets/photo3.jpg')"
+              ></div>
+              <div
+                class="slider--item"
+                style="background-image: url('./assets/photo4.jpg')"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="app--loginOptions">
+          <div class="group">
+            <div class="instagram--logo">
+              <img src="./assets/instagram-logo.png" alt="instagram logo" />
+            </div>
+            <form method="POST">
+              <label class="instragram--input">
+                <span> Phone number, username, or email </span>
+                <input type="text" />
+              </label>
+              <br />
+              <label class="instragram--input">
+                <span> Password </span>
+                <input type="password" />
+              </label>
+              <br />
+              <label>
+                <input
+                  class="instagram--loginBTN"
+                  type="submit"
+                  value="Log in"
+                />
+              </label>
+            </form>
+            <p class="instagram--p-or">OR</p>
+
+            <div class="with--facebook">
+              <img
+                src="https://img.icons8.com/cute-clipart/64/000000/facebook.png"
+              />
+              Log in with Facebook
+            </div>
+            <a href="" class="instagram--forgot">Forgot password?</a>
+          </div>
+          <div class="group">
+            <p>
+              Don't have an account? <a href="" class="blue--link">Sign up</a>
+            </p>
+          </div>
+          <div class="group">
+            <p>Get the app.</p>
+            <div class="intagram--apple--google">
+              <img src="./assets/apple-button.png" alt="Download with Apple" />
+              <img
+                src="./assets/googleplay-button.png"
+                alt="Download with Googleplay"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
